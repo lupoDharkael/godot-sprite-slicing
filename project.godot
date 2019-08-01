@@ -1,0 +1,29 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "RigidBody2D",
+"class": "Sliceable2D",
+"language": "GDScript",
+"path": "res://Sliceable2D.gd"
+}, {
+"base": "Node2D",
+"class": "Slicer2D",
+"language": "GDScript",
+"path": "res://Slicer2D.gd"
+} ]
+_global_script_class_icons={
+"Sliceable2D": "",
+"Slicer2D": ""
+}
+
+[application]
+
+config/name="godot-sprite-slicer"

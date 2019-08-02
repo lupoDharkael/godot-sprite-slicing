@@ -35,7 +35,8 @@ class SlicingData:
 
 Tip: you can use `global_enter` and `global_out` to create animations.
 
-## Method list
+## Slicer2D
+### Method list
 ```python
 Array slice_world(Vector2 start, Vector2 end, int collision_layer = 0x7FFFFFFF, bool destroy = true)
 ```
@@ -55,7 +56,7 @@ SlicingData slice_one(Sliceable2D item, Vector2 start, Vector2 end, int collisio
 Does the same as `slice_world` but only cuts `item` if it is found in the cut.
 
 
-## Properties
+### Properties
 
 ```python
 Physics2DDirectSpaceState space_state

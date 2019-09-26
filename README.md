@@ -64,7 +64,7 @@ Physics2DDirectSpaceState space_state
 For advanced users. Assign a custom space state and it will be used to detect sliceable objects. That way you can isolate the interaction of a `Slicer2D` as the sliceable objects are identified using raycasts. Default value: `null`
 
 ```python
-float min_area.
+float min_area
 ```
 Minimum approximate area. Default value: `0.01`
 
